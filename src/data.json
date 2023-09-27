@@ -1,0 +1,84 @@
+{
+    "deporte": [
+      {
+        "pregunta": "¿Quién ganó la medalla de oro en 100 metros lisos en los Juegos Olímpicos de 2020?",
+        "opciones": ["Usain Bolt", "Carl Lewis", "Justin Gatlin", "Andre De Grasse"],
+        "correcta": "Usain Bolt"
+      },
+      {
+        "pregunta": "¿Cuál es el deporte que se juega en la Copa Mundial de Cricket?",
+        "opciones": ["Fútbol", "Rugby", "Cricket", "Tenis"],
+        "correcta": "Cricket"
+      },
+      {
+        "pregunta": "¿Cuántos jugadores hay en un equipo de baloncesto en la cancha al mismo tiempo?",
+        "opciones": ["6", "5", "7", "4"],
+        "correcta": "5"
+      },
+      {
+        "pregunta": "¿Quién es considerado el mejor jugador de fútbol de todos los tiempos?",
+        "opciones": ["Lionel Messi", "Diego Maradona", "Pelé", "Cristiano Ronaldo"],
+        "correcta": "Pelé"
+      },
+      {
+        "pregunta": "¿Cuál es el deporte principal en el Tour de Francia?",
+        "opciones": ["Ciclismo", "Atletismo", "Natación", "Tenis"],
+        "correcta": "Ciclismo"
+      }
+    ],
+    "historia": [
+      {
+        "pregunta": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "opciones": ["1776", "1789", "1801", "1750"],
+        "correcta": "1776"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+        "opciones": ["Josef Stalin", "Vladimir Putin", "León Trotsky", "Vladimir Lenin"],
+        "correcta": "Vladimir Lenin"
+      },
+      {
+        "pregunta": "¿Cuál fue el nombre del barco en el que Cristóbal Colón llegó a América en 1492?",
+        "opciones": ["Mayflower", "Santa María", "Nina", "Pinta"],
+        "correcta": "Santa María"
+      },
+      {
+        "pregunta": "¿En qué año se produjo la Revolución Francesa?",
+        "opciones": ["1798", "1776", "1805", "1789"],
+        "correcta": "1789"
+      },
+      {
+        "pregunta": "¿Quién fue el primer emperador de la dinastía romana Julio-Claudia?",
+        "opciones": ["Julio César", "Nerón", "Tiberio", "Augusto"],
+        "correcta": "Augusto"
+      }
+    ],
+    "tecnología": [
+      {
+        "pregunta": "¿Qué empresa desarrolló el primer microprocesador comercialmente viable?",
+        "opciones": ["IBM", "Intel", "AMD", "Nvidia"],
+        "correcta": "Intel"
+      },
+      {
+        "pregunta": "¿En qué año se lanzó la primera versión de Windows de Microsoft?",
+        "opciones": ["1990", "1985", "1995", "1980"],
+        "correcta": "1985"
+      },
+      {
+        "pregunta": "¿Cuál es el lenguaje de programación utilizado para desarrollar aplicaciones móviles nativas en Android?",
+        "opciones": ["Java", "Python", "JavaScript", "C++"],
+        "correcta": "Java"
+      },
+      {
+        "pregunta": "¿Quién es el fundador de Tesla Motors?",
+        "opciones": ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Elon Musk"],
+        "correcta": "Elon Musk"
+      },
+      {
+        "pregunta": "¿Qué siglas representan al protocolo de transferencia de hipertexto utilizado en la World Wide Web?",
+        "opciones": ["FTP", "HTTP", "SMTP", "HTML"],
+        "correcta": "HTTP"
+      }
+    ]
+  }
+  
