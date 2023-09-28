@@ -12,7 +12,7 @@ const Inicio = () => {
         <h3 className="text-xl font-semibold mb-2">Selecciona una categoría</h3>
         <div className="flex space-x-4">
           <Link to="/deporte">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <button  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               Deporte
             </button>
           </Link>

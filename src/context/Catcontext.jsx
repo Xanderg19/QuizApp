@@ -1,6 +1,6 @@
 import { createContext,useState } from "react";
 import React from 'react'
-// import { deporte,historiaPreguntas,tecnologiaPreguntas } from "../helpers/preguntas";
+
 
 const Catcontext = createContext();
 
@@ -12,7 +12,10 @@ export const Categorias = ({children}) => {
     const [final, setFinal] = useState(false);
     const [disable, setDisable] = useState(false);
     const [nomCat, setNomCat] = useState([])
-  
+   
+
+   
+
     const handleSeleccionarRespuesta = (index, isCorrect) => {
       // desabilitar selecccion de respuesta
       setDisable(true);

@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom'; // Asumiendo que estás utilizando react-router-dom
+import React, { useContext, useEffect } from 'react';
 import { Catcontext } from '../context/Catcontext';
 import {  historiaPreguntas } from '../helpers/preguntas';
 
@@ -23,16 +22,20 @@ export const Historia = () => {
     <div className="bg-gray-200 min-h-screen flex items-center justify-center">
       <section className="bg-white p-8 rounded-lg shadow-lg w-full max-w-xl">
         {final ? (
-          <div className="text-center">
-            <p className="text-2xl font-bold mb-4">
-              Obtuviste {puntuacion} de {historiaPreguntas.length}
-            </p>
-            <Link to="/">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Volver a jugar
-              </button>
-            </Link>
-          </div>
+        <div className="text-center space-x-4">
+        <p className="text-2xl font-bold mb-4">
+          Obtuviste {puntuacion} de {historiaPreguntas.length}
+        </p>
+        
+          <button onClick={() => window.location.href="/"} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Volver al inicio
+          </button>
+       
+
+        <button onClick={() => window.location.reload()} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Volver a jugar
+          </button>
+      </div>
         ) : (
           <>
             <div className="mb-4">
